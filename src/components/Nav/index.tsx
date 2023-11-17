@@ -4,7 +4,7 @@ import TopNav from './topNav'
 
 const Nav = () => {
 	return (
-		<div className=''>
+		<div className='wrapper'>
 			<SideNav />
 			<TopNav />
 		</div>
