@@ -1,10 +1,14 @@
-import './App.css'
+import './App.scss'
+import Nav from './components/Nav'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
 	return (
-		<div>
-			<div className=''></div>
-		</div>
+		<Router>
+			<div>
+				<Nav />
+			</div>
+		</Router>
 	)
 }
 

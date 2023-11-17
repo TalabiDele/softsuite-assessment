@@ -1,0 +1,160 @@
+@import '/colors';
+
+.container {
+  padding: 1rem;
+  width: 18rem;
+  height: 100vh;
+  padding-bottom: 5rem;
+  overflow-y: scroll;
+}
+
+.chev_icon {
+  font-size: 1.5rem;
+}
+
+.dropDown {
+  color: $primary-blue;
+  font-size: 0.8rem;
+  margin: 1rem 0rem;
+
+  div {
+    display: flex;
+    border-bottom: 1px solid $primary-gray;
+    padding: 0.5rem;
+
+    :nth-child(1) {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  color: $primary-blue;
+  cursor: pointer;
+  justify-content: space-between;
+
+  .item {
+    display: flex;
+    align-items: center;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .switch_icon {
+    background-color: $primary-blue;
+    color: $primary-white;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+
+}
+
+.drop_down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_link {
+  color: $text-gray;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  .tree {
+    rotate: 90deg;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  &:hover {
+    background-color: $bg-blue;
+    border-radius: 5px;
+    font-weight: 500;
+    color: $primary-blue;
+  }
+
+  svg {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.active {
+  background-color: $primary-green;
+  color: $primary-white;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.line {
+  border-bottom: 2px solid $primary-gray;
+  margin: 2rem 0rem;
+}
+
+.box_dropdown {
+  background-color: $primary-gray;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  color: $text-gray;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.8rem;
+
+  p {
+    margin: 0.5rem;
+  }
+}
+
+.setup_dropdown {
+    margin: 1rem 0rem;
+  
+  color: $text-gray;
+  transition: all 0.2s ease-in-out;
+
+  p {
+    margin: 0.5rem;
+    
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+
+  .active_p {
+    background-color: $primary-gray;
+    color: $primary-blue;
+  }
+}
